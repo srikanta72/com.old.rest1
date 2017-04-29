@@ -30,6 +30,7 @@ public class ClientApp {
 					.post(ClientResponse.class,json);
 			resStr=cr.getEntity(String.class);
 			System.out.println("Git2");
+			System.out.println(" Github used and overriden twice.");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
