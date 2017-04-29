@@ -29,7 +29,7 @@ public class ClientApp {
 					.type("application/json")
 					.post(ClientResponse.class,json);
 			resStr=cr.getEntity(String.class);
-			
+			System.out.println("Git2");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
